@@ -1,0 +1,42 @@
+{
+  "name": "@dxos/mdns",
+  "version": "1.0.0-beta.0",
+  "description": "DxOS MDNS",
+  "homepage": "https://github.com/dxos/mdns#readme",
+  "license": "GPL-3.0",
+  "bin": {
+    "mdns": "bin/mdns.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "lint": "semistandard '**/*.js'"
+  },
+  "bugs": {
+    "url": "https://github.com/dxos/mdns/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxos/mdns.git"
+  },
+  "private": true,
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dns-packet": "^1.3.1",
+    "mdns-server": "^1.0.9",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "semistandard": "^14.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "semistandard": {
+    "env": [
+      "node",
+      "browser"
+    ]
+  }
+}
