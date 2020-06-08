@@ -20,7 +20,7 @@ if (argv.interfaces) {
 }
 
 const getNetworkAddresses = (type) => {
-  const family = typeAAAA === type ? 'IPv6' : 'IPv4'
+  const family = typeAAAA === type ? 'IPv6' : 'IPv4';
   const allInterfaces = os.networkInterfaces();
   const addresses = [];
   const adapterNames = interfaces.length ? interfaces : Object.getOwnPropertyNames(allInterfaces);
@@ -31,7 +31,7 @@ const getNetworkAddresses = (type) => {
     }
   }
   return addresses;
-}
+};
 
 const hostnames = [];
 if (argv.hostnames) {
@@ -44,7 +44,7 @@ const mdns = require('mdns-server')({
   reuseAddr: true,
   ttl: 255,
   srcPort: 5353
-})
+});
 
 mdns.on('query', (query) => {
   for (const question of query.questions) {
