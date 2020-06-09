@@ -5,6 +5,7 @@
   "homepage": "https://github.com/dxos/mdns#readme",
   "license": "GPL-3.0",
   "bin": {
+    "dxos-mdns": "bin/mdns.js",
     "mdns": "bin/mdns.js"
   },
   "files": [
