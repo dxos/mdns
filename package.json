@@ -3,7 +3,7 @@
   "version": "1.0.0-beta.3",
   "description": "DxOS MDNS",
   "homepage": "https://github.com/dxos/mdns#readme",
-  "license": "GPL-3.0",
+  "license": "AGPLv3",
   "bin": {
     "dxos-mdns": "bin/mdns.js",
     "mdns": "bin/mdns.js"
