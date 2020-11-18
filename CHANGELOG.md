@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/dxos/mdns/compare/v1.0.0...v1.0.1) (2020-11-18)
+
+
+### Bug Fixes
+
+* bump ([b00a97c](https://www.github.com/dxos/mdns/commit/b00a97c3839c0a5a54990da176a02fe5cc960aaf))
+
 ## 1.0.0 (2020-11-18)
 
 
