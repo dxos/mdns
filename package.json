@@ -12,7 +12,8 @@
     "bin"
   ],
   "scripts": {
-    "lint": "semistandard '**/*.js'"
+    "lint": "semistandard '**/*.js'",
+    "lint:lockfile": "lockfile-lint --path yarn.lock --allowed-hosts yarn npm codeload.github.com --validate-https"
   },
   "bugs": {
     "url": "https://github.com/dxos/mdns/issues"
@@ -28,6 +29,7 @@
     "optimist": "^0.6.1"
   },
   "devDependencies": {
+    "lockfile-lint": "^4.3.7",
     "semistandard": "^14.2.0"
   },
   "publishConfig": {
