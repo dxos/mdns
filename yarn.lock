@@ -972,9 +972,9 @@ loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-mdns-server@^1.0.9:
+mdns-server@1.0.9:
   version "1.0.9"
-  resolved "https://registry.yarnpkg.com/mdns-server/-/mdns-server-1.0.9.tgz#17beca5412037f5348199c21d0d5b8aaecfbe6ea"
+  resolved "https://registry.npmjs.org/mdns-server/-/mdns-server-1.0.9.tgz#17beca5412037f5348199c21d0d5b8aaecfbe6ea"
   integrity sha512-b1F00LHqXL47Y9QTOtCJMnRIpZ7tmitY/FmckQq7P+2UY84MThDt4gCTg86EF6DV+Wl/QNdu07XYTKo0JYDGdw==
   dependencies:
     dns-packet "^1.1.1"
