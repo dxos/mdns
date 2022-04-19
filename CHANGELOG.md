@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/dxos/mdns/compare/v1.0.1...v1.0.2) (2022-04-19)
+
+
+### Bug Fixes
+
+* stick to specific package. ([0a8bb11](https://www.github.com/dxos/mdns/commit/0a8bb11339f618578e71bb5a2b59a78d5d127030))
+
 ### [1.0.1](https://www.github.com/dxos/mdns/compare/v1.0.0...v1.0.1) (2020-11-18)
 
 
