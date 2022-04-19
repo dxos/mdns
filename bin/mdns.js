@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 //
-// Copyright 2020 DxOS.
+// Copyright 2021 DxOS.
 //
 
 const debug = require('debug');
