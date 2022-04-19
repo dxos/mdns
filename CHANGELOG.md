@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/dxos/mdns/compare/v1.0.2...v1.0.3) (2022-04-19)
+
+
+### Bug Fixes
+
+* trigger build. ([7475cfe](https://www.github.com/dxos/mdns/commit/7475cfe9dc7d53365bcfe93cd3ee38911190d514))
+
 ### [1.0.2](https://www.github.com/dxos/mdns/compare/v1.0.1...v1.0.2) (2022-04-19)
 
 
