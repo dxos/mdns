@@ -1,6 +1,6 @@
 {
   "name": "@dxos/mdns",
-  "version": "1.0.3",
+  "version": "1.0.3-alpha.0",
   "description": "DxOS MDNS",
   "homepage": "https://github.com/dxos/mdns#readme",
   "license": "AGPLv3",
